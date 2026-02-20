@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Downloads</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="card glass">
+    <h2>Your Cover Letter is Ready</h2>
+    <a href="/download/docx" class="btn">⬇ Download DOCX</a><br><br>
+    <a href="/download/pdf" class="btn">⬇ Download PDF</a><br><br>
+    <a href="/dashboard">⬅ Back to Dashboard</a>
+
+    
+    <hr>
+<h4>Check ATS Score</h4>
+
+<form method="POST" action="/ats_score">
+    <textarea name="jd" class="form-control mb-2" placeholder="Paste Job Description Here" required></textarea>
+    <button class="btn btn-info">Analyze ATS Match</button>
+</form>
+
+</div>
+</body>
+</html>

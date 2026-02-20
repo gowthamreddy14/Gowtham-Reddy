@@ -1,0 +1,11 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:Arial,sans-serif;background:linear-gradient(135deg,#667eea,#764ba2);min-height:100vh;display:flex;justify-content:center;align-items:center;}
+.card{background:rgba(255,255,255,0.15);backdrop-filter:blur(15px);border-radius:20px;padding:2rem;width:350px;text-align:center;color:white;box-shadow:0 10px 25px rgba(0,0,0,0.1);}
+input,textarea{width:100%;padding:12px;margin:8px 0;border:none;border-radius:10px;}
+button,.btn,.google-btn{width:100%;padding:12px;border:none;border-radius:10px;margin-top:8px;color:white;font-weight:600;cursor:pointer;}
+button{background:linear-gradient(135deg,#4facfe,#00f2fe);}
+.google-btn{background:#4285f4;text-decoration:none;display:block;}
+.divider{margin:15px 0;position:relative;}
+.divider::before{content:"";position:absolute;top:50%;left:0;width:100%;height:1px;background:rgba(255,255,255,0.3);}
+.error{background:#ff4f57;color:white;padding:8px;border-radius:8px;margin:8px 0;}
+textarea{resize:vertical;height:80px;}
